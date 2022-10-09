@@ -23,11 +23,12 @@ class Employee:
 
     def get_pay(self):
         pay =0
-        if str(billie):
+        if self.name == ('Billie'):
             pay = 4000
-        elif str(charlie):
+        elif self.name == ('Charlie'):
             pay = 2500
         return pay
+        
     def __str__(self):
         return self.name
 
