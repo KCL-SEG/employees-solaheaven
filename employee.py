@@ -26,15 +26,15 @@ class Employee:
 
     def get_pay(self):
         pay = 0
-        if Employee.__name__== 'Billie':
+        if billie:
             pay = 4000
-        elif Employee.__name__== 'Charlie':
+        elif charlie:
             pay = 2500
-        elif Employee.__name__== 'Renee':
+        elif renee:
             pay = 3800
-        elif Employee.__name__==  'Jan':
+        elif jan:
             pay = 4410
-        elif Employee.__name__== 'Robbie':
+        elif robbie:
             pay = 3500
         else:
             pay = 4200
