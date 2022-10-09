@@ -27,7 +27,6 @@ class Employee:
 
     def get_pay(self):
         pay =0
-        str = ""
         if self.name == ('Billie'):
             pay = 4000
         elif self.name == ('Charlie'):
@@ -42,8 +41,6 @@ class Employee:
             pay = 4200
         return pay
 
-    def __str__(self):
-        return self.name
 
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
