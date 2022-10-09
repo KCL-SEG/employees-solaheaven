@@ -29,12 +29,13 @@ class Employee:
 
     def get_pay(self):
         pay =0
+        str = ""
         if self.name == ('Billie'):
             pay = 4000
-            Employee.setstr(billie)
+            print(Employee.setstr(billie))
         elif self.name == ('Charlie'):
             pay = 2500
-            Employee.setstr(charlie)
+            print(Employee.setstr(charlie))
         elif self.name == ('Renee'):
             pay = 3800
         elif self.name == ('Jan'):
