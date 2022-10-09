@@ -22,14 +22,12 @@ class Employee:
 
 
     def get_pay(self):
-        try:
-            billie.get_pay() == 4000
-            charlie.get_pay() == 2500
-            renee.get_pay() == 3800
-        except:
-            ("Employee not found.")
-
-       
+        pay =0
+        if str(billie):
+            pay = 4000
+        elif str(charlie):
+            pay = 2500
+        return pay
     def __str__(self):
         return self.name
 
