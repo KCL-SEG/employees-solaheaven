@@ -26,9 +26,9 @@ class Employee:
 
     def get_pay(self):
         pay = 0
-        if 'Billie':
+        if 'Billie' == type(billie).__name__:
             pay = 4000
-        elif 'Charlie':
+        elif 'Charlie'== type(charlie).__name__:
             pay = 2500
         elif 'Renee':
             pay = 3800
