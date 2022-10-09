@@ -13,7 +13,7 @@ class Employee:
     def str(self):
         str = ""
         if self.name == ('Billie'):
-            str = "Billie works on a monthly salary of 4000.\s+Their total pay is 4000.$" 
+            str = "^Billie works on a monthly salary of 4000.\s+Their total pay is 4000.$" 
         elif self.name == ('Charlie'):
             str = "Charlie works on a contract of 100 hours at 25/hour. Their total pay is 2500."
         elif self.name == ('Renee'):
