@@ -1,8 +1,7 @@
 """Employee pay calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-from array import array
-from xmlrpc.client import ResponseError
+
 
 
 
@@ -11,11 +10,10 @@ class Employee:
         self.name = name
   
     def __str__(self):
-        str = ""
         if self.name == ('Billie'):
-            str = "Billie works on a monthly salary of 4000. Their total pay is 4000." 
+             return "Billie works on a monthly salary of 4000. Their total pay is 4000." 
         elif self.name == ('Charlie'):
-            str = "Charlie works on a contract of 100 hours at 25/hour. Their total pay is 2500."
+            return "Charlie works on a contract of 100 hours at 25/hour. Their total pay is 2500."
         elif self.name == ('Renee'):
             str == "Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract. Their total pay is 3800."
         elif self.name == ('Jan'):
