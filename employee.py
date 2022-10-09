@@ -10,10 +10,10 @@ class Employee:
     def __init__(self, name):
         self.name = name
   
-    def setstr(self):
+    def str(self):
         str = ""
-        if self.name == ('Billie'):
-            str = "^Billie works on a monthly salary of 4000.\s+Their total pay is 4000.$" 
+        if self == ('Billie'):
+            str = "Billie works on a monthly salary of 4000. Their total pay is 4000." 
         elif self.name == ('Charlie'):
             str = "Charlie works on a contract of 100 hours at 25/hour. Their total pay is 2500."
         elif self.name == ('Renee'):
@@ -32,10 +32,8 @@ class Employee:
         str = ""
         if self.name == ('Billie'):
             pay = 4000
-            print(Employee.setstr(billie))
         elif self.name == ('Charlie'):
             pay = 2500
-            print(Employee.setstr(charlie))
         elif self.name == ('Renee'):
             pay = 3800
         elif self.name == ('Jan'):
